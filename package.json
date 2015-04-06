@@ -1,0 +1,29 @@
+{
+  "name": "walky",
+  "version": "1.0.0",
+  "description": "Javascript client library for the Walky distributed objects protocol.",
+  "author": "Aki Mimoto",
+  "main": "walky",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amimoto/walkyjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/amimoto/walkyjs/issues"
+  },
+  "keywords": [
+    "walky"
+  ],
+  "prefetchGlobal": true,
+  "private": true,
+  "analyze": true,
+  "license": "GPL",
+  "homepage": "https://github.com/amimoto/walkyjs",
+  "files": [
+    "walky.js"
+  ],
+  "directories": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
