@@ -1,8 +1,8 @@
 {
   "name": "walky",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Javascript client library for the Walky distributed objects protocol.",
-  "author": "Aki Mimoto",
+  "author": "Aki Mimoto <aki-npm@bako.ca>",
   "main": "walky",
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
     "walky"
   ],
   "prefetchGlobal": true,
-  "private": true,
+  "private": false,
   "analyze": true,
   "license": "GPL",
   "homepage": "https://github.com/amimoto/walkyjs",
@@ -25,6 +25,9 @@
   "directories": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "rsvp": ""
   },
   "devDependencies": {
     "grunt": "^0.4.5",
