@@ -123,7 +123,7 @@ WalkySerializer.prototype.envelopeUnwrap = function ( normalizedData, walkyConne
                 // FIXME Need to handle this still
                 break
 
-            case Walky.that.PAYLOAD_METHOD_EXECUTE:
+            case Walky.PAYLOAD_METHOD_EXECUTE:
                 // In the case of an execute request things are a bit
                 // different. So let's just structure it.
                 // FIXME Need to handle this properly

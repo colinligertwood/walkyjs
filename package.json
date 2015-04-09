@@ -1,6 +1,6 @@
 {
   "name": "walky",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Javascript client library for the Walky distributed objects protocol.",
   "author": "Aki Mimoto <aki-npm@bako.ca>",
   "main": "walky",
@@ -27,7 +27,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "rsvp": ""
+    "rsvp": "",
+    "websocket": ""
   },
   "devDependencies": {
     "grunt": "^0.4.5",
