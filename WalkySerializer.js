@@ -3,6 +3,7 @@
 var Walky = require('./');
 var WalkyEnveloped = require('./WalkyEnveloped');
 var WalkyExecRequest = require('./WalkyExecRequest');
+var WalkyObjectStub = require('./WalkyObjectStub');
 
 function WalkySerializer(){
 }

@@ -1,6 +1,6 @@
 {
   "name": "walky",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Javascript client library for the Walky distributed objects protocol.",
   "author": "Aki Mimoto <aki-npm@bako.ca>",
   "main": "walky",
@@ -20,7 +20,16 @@
   "license": "GPL",
   "homepage": "https://github.com/amimoto/walkyjs",
   "files": [
-    "walky.js"
+    "WalkyConnection.js",
+    "WalkyEngine.js",
+    "WalkyEnveloped.js",
+    "WalkyExecRequest.js",
+    "WalkyInterrogation.js",
+    "WalkyObjectStub.js",
+    "WalkyObjectWrapper.js",
+    "WalkyRegistry.js",
+    "WalkySerializer.js",
+    "index.js"
   ],
   "directories": {},
   "scripts": {
